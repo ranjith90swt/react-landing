@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/vcare_logo.webp";
+import logo from "../assets/logo.png";
 import { NavItems } from '../Constants';
 import { Menu, X } from "lucide-react";
 
@@ -15,8 +15,8 @@ function Navbar() {
            <div className="container px-4 mx-auto relative">
               <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
-                   {/* <img className='h-20' src={logo} alt="" /> */}
-                   <h2 className='lg:text-3xl md:2xl sm:text-xl'>Logo</h2>
+                    <img className='h-20' src={logo} alt="" />
+                  
                 </div>
                 <ul className="hidden lg:flex ml-14 space-x-12">
                     {NavItems.map((item, index) => (
