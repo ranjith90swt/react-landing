@@ -31,7 +31,7 @@ function FormSection() {
     setIsSubmitting(true);
     setSuccessMsg('');
     try{
-      const response = await fetch('http://localhost/rest-api/customer/create.php', {
+      const response = await fetch('https://reqres.in/api/users', {
         method:'POST',
         headers:{
           'Content-Type': 'application/json',
