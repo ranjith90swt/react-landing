@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: "Lato", sans-serif;
+    /* color-scheme: dark; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.red-text{
+    color: blueviolet;
+}
+.svg{
+    width: 16px !important;
+}
+
+@layer components {
+    .book-btn{
+        @apply py-2 px-6 bg-green-600 text-base text-gray-50 hover:bg-green-900 rounded-full
+    }
+    .footer{
+        @apply mt-20 border-solid border border-slate-800  bg-gray-900 text-white
+    }
+
+    .input{
+        @apply block w-full rounded-md py-2 pl-4 pr-20 text-gray-900 mt-1 hover:border-gray-400 shadow-none outline-none bg-transparent
+        border border-gray-400 hover:border-green-500
+    }
+    .card{
+        
+    }
+    p{
+        @apply text-gray-600 text-base font-normal
+    }
+    .main-title{
+        @apply text-3xl lg:text-4xl text-center items-center mb-6 lg:mb-8
+    }
+}
