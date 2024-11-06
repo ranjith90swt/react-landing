@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/vcare_logo.webp";
+import logo from "../assets/logo.png";
 import { NavItems } from '../Constants';
 import { Menu, X } from "lucide-react";
 
